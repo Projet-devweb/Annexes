@@ -1,3 +1,6 @@
+<?php
+  require('functionsProject.php');
+ ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,25 +22,24 @@
 		?>
 
     <?php
-
-    
-
     $newCsvData = array();
-    if (($handle = fopen("test.csv", "r")) !== FALSE) {
+    if (($handle = fopen("annex1.csv", "r")) !== FALSE) {
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            $data[] = 'New Column';
+            $data[] = '';
             $newCsvData[] = $data;
         }
         fclose($handle);
     }
 
-    $handle = fopen('test.csv', 'w');
+    $handle = fopen('annex1.csv', 'w');
 
     foreach ($newCsvData as $line) {
        fputcsv($handle, $line);
     }
 
     fclose($handle);
+
+
 
     ?>
 
