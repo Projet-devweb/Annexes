@@ -1,0 +1,78 @@
+body {
+    font-family: Arial MS-Trebuchet sans-serif ;
+    
+  }
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+
+.image{
+background-color: white;
+  display: block;
+  width: 250px;
+ }
+
+.menu li a {
+    font-size: 25px;
+    font-family: "Gill Sans", sans-serif;
+    display: block;
+    color: #fff;
+    background: linear-gradient(45deg, #090a7a, #038bcf);
+    border-radius: 10px;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+}
+
+.menu li a:hover { /* Lorsque la souris passe sur le menu */
+    background: linear-gradient(45deg, #038bcf, #090a7a);
+    color: #fff;
+  }
+
+.menu li {
+    display: inline-block; /* Permet de mettre des éléments du menu en bloque horitonal */
+
+}            /* on peut également mettre float: right; met le centrage ne sera pas possible */
+
+.deco{
+    float: right;
+}
+
+.menu ul {
+    margin-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+
+  }
+
+h2{
+    text-align: center;
+    color: #330E1C;
+}
+
+
+p{
+    margin-left: 3%;
+    margin-right: 10%;
+    text-align: start;
+    color: black;
+}
+
+
+h3{
+    text-align: right;
+    margin-right: 80px;
+}
+  hr {
+	width: 80%;
+    height: 2px;
+    border: 1.5px #330E1C ridge;
+}
