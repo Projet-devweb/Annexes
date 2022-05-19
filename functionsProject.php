@@ -12,6 +12,4 @@ function randomDate($start_date, $end_date)
   return date('d/m/Y', $val);
 }
 
-
-
 ?>

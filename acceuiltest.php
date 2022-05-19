@@ -5,7 +5,7 @@
         <title>accueil</title>
     </head>
     <body>
-		<form id="form" name="form" action="consultation.php" method="POST">
+		<form id="form" name="form" action="consultation.php"  method="POST">
 			<h1>Inscription Elève</h1>
 
 			<p>Login : <input type="text" name="login" /></p>
